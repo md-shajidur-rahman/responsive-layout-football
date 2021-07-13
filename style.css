@@ -5,7 +5,8 @@ body {
 /* --------------------
      Players List
 -------------------- */
-main {
+main,
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,4 +33,21 @@ main {
 }
 .p-color {
   color: gray;
+}
+
+/* Footer Style */
+
+footer img {
+  width: 483.87px;
+  margin: 20px 0px;
+}
+.circle-shape {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #969bab;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
 }
