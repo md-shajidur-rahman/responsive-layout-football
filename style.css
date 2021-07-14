@@ -82,6 +82,38 @@ footer {
   color: gray;
 }
 
+/* Copa Final Highlights */
+
+.copa-highlights {
+  display: flex;
+  justify-content: center;
+  padding: 150px 0;
+}
+.highlights {
+  width: 466px;
+  height: 309px;
+  margin-right: 69px;
+}
+.channel {
+  width: 567px;
+}
+
+/* Sponsored By */
+
+.sponsor-logo {
+  display: flex;
+  padding-bottom: 150px;
+}
+.logo {
+  margin-right: 50px;
+  padding: 10px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.sponsor-logo img {
+  width: 200px;
+  height: 100%;
+}
+
 /* Footer Style */
 
 footer img {
