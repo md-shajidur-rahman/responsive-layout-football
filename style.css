@@ -130,3 +130,46 @@ footer img {
   justify-content: center;
   margin: 20px 0px;
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 688px) {
+  header {
+    height: 695px;
+  }
+  nav,
+  main,
+  .header-heading,
+  .copa-highlights,
+  .sponsor-logo {
+    display: block;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffff;
+  }
+  .header-heading img {
+    width: 329px;
+    height: 259.17px;
+    padding-left: 0;
+  }
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .highlights {
+    width: 329px;
+    height: 299px;
+  }
+  .logo {
+    margin-left: 50px;
+    margin-bottom: 15px;
+  }
+  footer img {
+    width: 275px;
+  }
+}
